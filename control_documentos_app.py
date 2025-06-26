@@ -20,7 +20,7 @@ if "authenticated" not in st.session_state:
 
 # --- LOGIN ---
 usuarios = {
-    "administrador": {"password": "admin123", "rol": "admin"},
+    "administrador": {"password": "X6GFnwGJaEmzZp7", "rol": "admin"},
     "usuario_01": {"password": "user123", "rol": "usuario"}
 }
 
