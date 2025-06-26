@@ -65,7 +65,7 @@ def conectar_hoja():
         creds = Credentials.from_authorized_user_file(token_file, SCOPES)
     else:
         flow = InstalledAppFlow.from_client_secrets_file(creds_file, SCOPES)
-        creds = flow.run_local_server(port=0)
+        creds = flow.run_console()
         with open(token_file, 'w') as token:
             token.write(creds.to_json())
 
